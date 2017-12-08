@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Prisoner Ransom</name>
+  <author>erdelf, Anarcraft</author>
+  <targetVersion>0.18.1722</targetVersion>
+  <description>
+  
+This mod allows you to demand ransom for imprisoned pawns for silver at the comms console.
+It will give you a slight relationship boost.
+Leaders are, of course, worth more and will likely be more friendly to you after that.
+If your demands fail the faction will raid your base.
+
+    </description>
+</ModMetaData>
