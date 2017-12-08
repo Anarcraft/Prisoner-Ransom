@@ -1,4 +1,4 @@
 1.0 @ 12-7-2017
-Updated: Target version RimWorld 0.18
-Added: "Disconnect" button
-Changed: some text slightly including "Prisoner(s) of Faction Name"
+Updated: Target version RimWorld 0.18.
+Added: "Disconnect" button.
+Changed: Some text slightly including "Prisoner(s) of Faction Name".
