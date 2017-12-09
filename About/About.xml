@@ -6,9 +6,9 @@
   <description>
   
 This mod allows you to demand ransom for imprisoned pawns for silver at the comms console.
-It will give you a slight relationship boost.
+It will give you a slight relationship boost.  This doesn't work if the faction is very hostile to you.  I don't know what the threshold is, maybe =>90%?
 Leaders are, of course, worth more and will likely be more friendly to you after that.
-If your demands fail the faction will raid your base.
+If the faction doesn't take your demands seriously they will raid you.
 
     </description>
 </ModMetaData>
