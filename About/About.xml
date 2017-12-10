@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Prisoner Ransom</name>
-  <author>erdelf, Anarcraft</author>
-  <targetVersion>0.18.1722</targetVersion>
-  <description>
-  
-This mod allows you to demand ransom for imprisoned pawns for silver at the comms console.
-It will give you a slight relationship boost.  This doesn't work if the faction is very hostile to you.  I don't know what the threshold is, maybe =>90%?
-Leaders are, of course, worth more and will likely be more friendly to you after that.
-If the faction doesn't take your demands seriously they will raid you.
+	<name>Prisoner Ransom</name>
+	<author>erdelf, Anarcraft</author>
+	<url>https://ludeon.com/forums/index.php?topic=37544</url>
+	<targetVersion>0.18.1722</targetVersion>
+	<description>
 
-    </description>
+This mod allows you to demand ransom, in silver, for prisoners at the comms console.
+It will give you a slight relationship boost.  This doesn't work if the faction is very hostile to you.
+I believe the threshold is => 90%.
+Leaders are worth more and will likely be more friendly to you after that.
+If the faction doesn't take your demands seriously they will raid you.
+Originally created by erdelf.
+
+FAQ:
+Can I add your mod to my save game, remove it?
+Yes, it can be safely added to, and removed from, saved games.
+
+Can I add your mod to my modpack?
+Yes, so long as the mod is included in it's entirety.  You do not need to ask or notify me.
+
+Can I make an edited copy of your mod?
+Yes, so long as you include the MIT license.
+
+	</description>
 </ModMetaData>

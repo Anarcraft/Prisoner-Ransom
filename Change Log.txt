@@ -1,4 +1,4 @@
 1.0 @ 12-7-2017
 Updated: Target version RimWorld 0.18.1722.
-Added: "Disconnect" button.
+Added: "Disconnect" option.
 Changed: A lot of text.
