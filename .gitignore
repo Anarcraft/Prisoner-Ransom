@@ -48,6 +48,8 @@ Source/PrisonerRansom/obj
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Misc local files
 Source/obj/Debug/PrisonerRansom.csproj.FileListAbsolute.txt
 Source/obj/Debug/PrisonerRansom.csproj.CoreCompileInputs.cache
 Source/obj/Debug/PrisonerRansom.csproj.AssemblyReference.cache
