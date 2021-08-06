@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
-using Harmony;
+using HarmonyLib;
 using UnityEngine;
 
 namespace PrisonerRansom
@@ -54,7 +54,7 @@ namespace PrisonerRansom
 
         static ReplacementCode()
         {
-            HarmonyInstance harmony = HarmonyInstance.Create("rimworld.anarcraft.prisoner_ransom");
+            Harmony harmony = new Harmony("rimworld.anarcraft.prisoner_ransom");
             harmony.Patch(typeof(FactionDialogMaker).GetMethod("FactionDialogFor"), null, new HarmonyMethod(typeof(ReplacementCode), nameof(FactionDialogForPostFix)));
         }
         
@@ -93,13 +93,13 @@ namespace PrisonerRansom
                                 p.DeSpawn();
                             }
                         //TaleRecorder.RecordTale(TaleDefOf.SoldPrisoner);
-                        faction.AffectGoodwillWith(Faction.OfPlayer, faction.leader == p ? 50 : settings.ransomGoodwill);
+                        faction.TryAffectGoodwillWith(Faction.OfPlayer, (int)(faction.leader == p ? 50 : settings.ransomGoodwill));
                             Messages.Message((faction.leader == p ? "You sent the leader of " + faction + ", " : "You sent prisoner ") + p + " home. (+" + (faction.leader == p ? 50 : settings.ransomGoodwill) + " Goodwill)", MessageTypeDefOf.PositiveEvent);
                         }
                         else
                         {
                             Messages.Message(faction + " did not accept the ransom!", MessageTypeDefOf.NegativeEvent);
-                            faction.AffectGoodwillWith(Faction.OfPlayer, faction.leader == p ? -50 : settings.ransomGoodwillFail);
+                            faction.TryAffectGoodwillWith(Faction.OfPlayer, (int)(faction.leader == p ? -50 : settings.ransomGoodwillFail));
                             IncidentParms incidentParms = new IncidentParms()
                             {
                                 faction = faction,
